@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  padding: 15px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 50px;
+  width: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.column h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.column h3 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.column p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.column button {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.section-webinars {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.webinars-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.webinar-column {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+.webinar-column img {
+  width: 100%;
+  height: auto;
+}
+
+.webinar-info {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.webinar-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.webinar-info p {
+  font-size: 16px;
+  color: #666;
+}
+
+.load-more-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+
+.copyright {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  border-top: 1px solid black;
+}
+
+.back-to-top {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 10px auto;
+}
